@@ -1,0 +1,271 @@
+object frmConsulta: TfrmConsulta
+  Left = 0
+  Top = 0
+  ClientHeight = 444
+  ClientWidth = 305
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object rctFooter: TRectangle
+    Align = Bottom
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF1F3968
+        Offset = 0.838509321212768600
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.500000000000000000
+    Fill.Gradient.StartPosition.Y = 1.000000000000000000
+    Fill.Gradient.StopPosition.X = 0.499999970197677600
+    Fill.Gradient.StopPosition.Y = 0.000000000000000000
+    Position.Y = 404.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object CircleStatus: TCircle
+      Align = Right
+      Fill.Color = xFF97D05E
+      Position.X = 288.000000000000000000
+      Size.Width = 10.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object edtUnidCons: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      Position.X = 192.000000000000000000
+      Position.Y = 18.000000000000000000
+      Visible = False
+    end
+  end
+  object lvConsulta: TListView
+    ItemAppearanceClassName = 'TDynamicAppearance'
+    ItemEditAppearanceClassName = 'TDynamicAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TCustomizeItemObjects'
+    Align = Top
+    Margins.Top = 10.000000000000000000
+    Position.Y = 227.000000000000000000
+    Size.Width = 321.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Visible = False
+    ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'txtDescricao'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.Size = 20.000000000000000000
+        Appearance.Width = 127.000000000000000000
+        Appearance.Height = 44.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'txtCodInt'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.Size = 20.000000000000000000
+        Appearance.Width = 325.000000000000000000
+        Appearance.Height = 30.000000000000000000
+        Appearance.PlaceOffset.X = -16.000000000000000000
+        Appearance.PlaceOffset.Y = 40.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'txtPrecoVen'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Width = 169.000000000000000000
+        Appearance.Height = 40.000000000000000000
+        Appearance.PlaceOffset.X = 134.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'txtUltAlteracao'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Width = 311.000000000000000000
+        Appearance.Height = 105.000000000000000000
+        Appearance.PlaceOffset.X = -32.000000000000000000
+      end>
+    ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'Text1'
+        AppearanceClassName = 'TTextObjectAppearance'
+      end>
+  end
+  object rctTop: TRectangle
+    Align = Top
+    Fill.Kind = None
+    Position.Y = 49.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object btnConsulta: TButton
+      Align = Right
+      Margins.Top = 15.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Position.X = 234.000000000000000000
+      Position.Y = 15.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 46.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'searchtoolbuttonbordered'
+      TabOrder = 0
+      Text = 'Consultar'
+      OnClick = btnConsultaClick
+    end
+    object lblCodBarras: TLabel
+      Align = Left
+      StyledSettings = [Family, FontColor]
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 231.000000000000000000
+      Size.Height = 51.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      Text = 'C'#243'd. Barras Prod'
+      TabOrder = 1
+    end
+    object edtCodBar: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Bottom
+      TabOrder = 2
+      MaxLength = 13
+      Position.X = 5.000000000000000000
+      Position.Y = 61.000000000000000000
+      Margins.Left = 5.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Margins.Bottom = 35.000000000000000000
+      Size.Width = 270.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      OnTyping = edtCodBarTyping
+      OnKeyDown = edtCodBarKeyDown
+    end
+  end
+  object VertScrollBox1: TVertScrollBox
+    Align = Client
+    Size.Width = 305.000000000000000000
+    Size.Height = 235.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Viewport.Width = 305.000000000000000000
+    Viewport.Height = 235.000000000000000000
+  end
+  object rctRctTop: TRectangle
+    Align = Top
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF1F3968
+        Offset = 0.891304373741149900
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.500000000000000000
+    Fill.Gradient.StopPosition.X = 0.499999970197677600
+    Size.Width = 305.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object lblGsSmart: TLabel
+      Align = Center
+      AutoSize = True
+      StyledSettings = [Family]
+      Margins.Right = 10.000000000000000000
+      Size.Width = 228.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'CONSULTAR PRODUTOS'
+      TabOrder = 0
+    end
+    object img_fechar: TImage
+      MultiResBitmap.Height = 32
+      MultiResBitmap.Width = 32
+      MultiResBitmap = <
+        item
+          Width = 32
+          Height = 32
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+            F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            0098494441545847ED96C10980300C458B1B084EE3009E9DC0499CC08BEB3893
+            74002F6DFC81047AF0243415C983F2A1397CFE6F0F098EF32B88A8CF39AF388B
+            5CD901F321A5B443097AC8B50D9C9CCD638C1738D1C028A3FA94C9D91C32CBA8
+            3E0FC92719D5C7937B72D3E40CCCB71AC93BD1EFD3FC091898B6FB848A37A178
+            13CA579BB05B4894B209A8ED4AA6701348DF6629759C778470032DA357255DD3
+            7D530000000049454E44AE426082}
+          FileName = 
+            'D:\99Coders\Mobile 360\Curso 2.0\03 - App mobile\05 - Tela princ' +
+            'ipal - Tabs\FontesDelphi\Images\icon-voltar.png'
+        end>
+      Align = Left
+      Margins.Left = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      WrapMode = Center
+      OnClick = img_fecharClick
+    end
+  end
+  object RESTClient1: TRESTClient
+    Authenticator = HTTPBasicAuthenticator1
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'utf-8, *;q=0.8'
+    Params = <>
+    RaiseExceptionOn500 = False
+    Left = 32
+    Top = 296
+  end
+  object RequestProd: TRESTRequest
+    Client = RESTClient1
+    Params = <
+      item
+        Name = 'gs_CodBarras'
+        Value = '7896412819520'
+      end
+      item
+        Name = 'gs_Unidade'
+        Value = '001'
+      end>
+    Resource = 'prod_consulta'
+    Response = TRestResponseProd
+    SynchronizedEvents = False
+    Left = 40
+    Top = 360
+  end
+  object TRestResponseProd: TRESTResponse
+    ContentType = 'application/json'
+    Left = 136
+    Top = 352
+  end
+  object HTTPBasicAuthenticator1: THTTPBasicAuthenticator
+    Username = 'testserver'
+    Password = 'testserver'
+    Left = 168
+    Top = 272
+  end
+  object bndngslst: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 252
+    Top = 293
+  end
+end

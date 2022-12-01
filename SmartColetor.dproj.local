@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/11/30 15:21:35.000.698,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/30 15:22:10.000.594,=C:\Users\romul\Desktop\coletor301122\frame.produto.pas</Transaction>
+    <Transaction>2022/11/30 15:22:10.000.376,=C:\Users\romul\Desktop\coletor301122\Androidapi.JNI.PowerManager.pas</Transaction>
+    <Transaction>2022/11/30 15:22:11.000.171,=C:\Users\romul\Desktop\coletor301122\uAud.pas</Transaction>
+    <Transaction>2022/11/30 15:25:01.000.312,=C:\Users\romul\Desktop\coletor301122\uColetas.pas</Transaction>
+    <Transaction>2022/11/30 15:25:21.000.488,C:\Users\romul\Desktop\coletor301122\uAud.pas=</Transaction>
+    <Transaction>2022/11/30 15:25:37.000.953,=C:\Users\romul\Desktop\coletor301122\ws_login.pas</Transaction>
+    <Transaction>2022/11/30 15:25:37.000.826,=C:\Users\romul\Desktop\coletor301122\ws_consulta.pas</Transaction>
+    <Transaction>2022/11/30 15:25:37.000.889,=C:\Users\romul\Desktop\coletor301122\ws_consultaJSON.pas</Transaction>
+    <Transaction>2022/11/30 15:25:38.000.015,=C:\Users\romul\Desktop\coletor301122\ws_SincProd.pas</Transaction>
+    <Transaction>2022/11/30 15:25:53.000.929,=C:\Users\romul\Desktop\coletor301122\uConfig.pas</Transaction>
+    <Transaction>2022/11/30 15:25:54.000.309,=C:\Users\romul\Desktop\coletor301122\uConsulta.pas</Transaction>
+    <Transaction>2022/11/30 15:25:58.000.375,=C:\Users\romul\Desktop\coletor301122\uDm.pas</Transaction>
+    <Transaction>2022/11/30 15:25:58.000.454,=C:\Users\romul\Desktop\coletor301122\uFancyDialog.pas</Transaction>
+    <Transaction>2022/11/30 15:25:58.000.991,=C:\Users\romul\Desktop\coletor301122\uLogin.pas</Transaction>
+    <Transaction>2022/11/30 15:25:58.000.607,=C:\Users\romul\Desktop\coletor301122\uListView.pas</Transaction>
+    <Transaction>2022/11/30 15:25:58.000.537,=C:\Users\romul\Desktop\coletor301122\uFuncoesBasicas.pas</Transaction>
+    <Transaction>2022/11/30 15:25:58.000.671,=C:\Users\romul\Desktop\coletor301122\uLoading.pas</Transaction>
+    <Transaction>2022/11/30 15:25:59.000.294,=C:\Users\romul\Desktop\coletor301122\uPrincipal.pas</Transaction>
+    <Transaction>2022/11/30 15:25:59.000.151,=C:\Users\romul\Desktop\coletor301122\uMsg.pas</Transaction>
+    <Transaction>2022/11/30 15:25:59.000.454,=C:\Users\romul\Desktop\coletor301122\uSincronizar.pas</Transaction>
+    <Transaction>2022/11/30 15:26:19.000.028,C:\Users\romul\Desktop\coletor301122\SmartColetor.dproj=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/11/30 15:26:48.000.758,C:\Users\romul\Desktop\coletor301122\ws_consultaJSON.pas=</Transaction>
+    <Transaction>2022/11/30 15:27:11.000.308,=C:\Users\romul\Desktop\coletor301122\uAudt.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="Nexus_4_API_29" Android64="RX8T604NCXM"/>
+	</ActiveMobileDevice>
+</BorlandProject>

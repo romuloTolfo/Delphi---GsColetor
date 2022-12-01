@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/11/11 18:41:52.000.720,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/12 14:15:12.000.973,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/12 14:16:04.000.739,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\uLogin.fmx</Transaction>
+    <Transaction>2022/11/12 14:16:04.000.739,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\uLogin.pas</Transaction>
+    <Transaction>2022/11/12 14:22:04.000.548,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/12 14:22:41.000.515,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\uPrincipal.fmx</Transaction>
+    <Transaction>2022/11/12 14:22:41.000.514,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\uPrincipal.pas</Transaction>
+    <Transaction>2022/11/12 14:24:08.000.120,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/12 14:25:28.000.806,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\uDm.dfm</Transaction>
+    <Transaction>2022/11/12 14:25:28.000.806,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\uDm.pas</Transaction>
+    <Transaction>2022/11/12 14:28:56.000.737,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\ws_login.pas</Transaction>
+    <Transaction>2022/11/12 14:31:44.000.788,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/12 14:32:34.000.902,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\uConfig.pas</Transaction>
+    <Transaction>2022/11/12 14:32:34.000.902,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\uConfig.fmx</Transaction>
+    <Transaction>2022/11/12 14:35:13.000.105,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/12 14:35:35.000.028,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\uListView.pas</Transaction>
+    <Transaction>2022/11/12 14:40:06.000.757,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\ProjectColetor.dproj</Transaction>
+    <Transaction>2022/11/16 09:32:32.000.099,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\Unit1.pas</Transaction>
+    <Transaction>2022/11/16 09:33:11.000.806,C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\uConsulta.fmx=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\Unit1.fmx</Transaction>
+    <Transaction>2022/11/16 09:33:11.000.806,C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\uConsulta.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\Unit1.pas</Transaction>
+    <Transaction>2022/11/16 11:39:40.000.483,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\Unit1.pas</Transaction>
+    <Transaction>2022/11/16 11:40:45.000.207,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\Unit1.pas</Transaction>
+    <Transaction>2022/11/16 11:42:33.000.498,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\Unit1.pas</Transaction>
+    <Transaction>2022/11/16 11:42:50.000.636,C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\ws_consultaJSON.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\Unit1.pas</Transaction>
+    <Transaction>2022/11/16 17:12:59.000.113,C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\ws_consulta.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\ws_consultaJSON.pas</Transaction>
+    <Transaction>2022/11/17 14:34:19.000.591,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\Unit1.pas</Transaction>
+    <Transaction>2022/11/17 14:34:41.000.006,C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\Unit1.fmx=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\frame.produto.fmx</Transaction>
+    <Transaction>2022/11/17 14:34:41.000.006,C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\Unit1.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\SmartColetor12112022\frame.produto.pas</Transaction>
+    <Transaction>2022/11/18 15:51:37.000.436,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\coletor181122\Unit1.pas</Transaction>
+    <Transaction>2022/11/18 15:51:45.000.736,C:\Users\romul\Documents\Embarcadero\Studio\Projects\coletor181122\uColetas.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\coletor181122\Unit1.pas</Transaction>
+    <Transaction>2022/11/18 15:51:45.000.736,C:\Users\romul\Documents\Embarcadero\Studio\Projects\coletor181122\uColetas.fmx=C:\Users\romul\Documents\Embarcadero\Studio\Projects\coletor181122\Unit1.fmx</Transaction>
+    <Transaction>2022/11/18 16:14:31.000.732,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\coletor181122\Unit2.pas</Transaction>
+    <Transaction>2022/11/18 16:14:44.000.345,C:\Users\romul\Documents\Embarcadero\Studio\Projects\coletor181122\uSincronizar.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\coletor181122\Unit2.pas</Transaction>
+    <Transaction>2022/11/18 16:14:44.000.345,C:\Users\romul\Documents\Embarcadero\Studio\Projects\coletor181122\uSincronizar.fmx=C:\Users\romul\Documents\Embarcadero\Studio\Projects\coletor181122\Unit2.fmx</Transaction>
+    <Transaction>2022/11/21 10:27:17.000.323,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\coletor191122\uLoading.pas</Transaction>
+    <Transaction>2022/11/22 17:21:29.000.867,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor211122\Unit1.pas</Transaction>
+    <Transaction>2022/11/22 23:26:53.000.130,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor211122\Unit1.pas</Transaction>
+    <Transaction>2022/11/22 23:36:02.000.893,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor211122\uAud.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor211122\Unit1.pas</Transaction>
+    <Transaction>2022/11/22 23:36:02.000.893,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor211122\uAud.fmx=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor211122\Unit1.fmx</Transaction>
+    <Transaction>2022/11/22 23:41:36.000.828,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor211122\Unit1.pas</Transaction>
+    <Transaction>2022/11/22 23:42:49.000.014,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor211122\ws_SincProd.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor211122\Unit1.pas</Transaction>
+    <Transaction>2022/11/23 15:27:49.000.190,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor231122\Unit1.pas</Transaction>
+    <Transaction>2022/11/23 16:02:51.000.754,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor231122\Unit1.pas</Transaction>
+    <Transaction>2022/11/23 16:03:25.000.588,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor231122\Unit1.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor231122\uFuncoesBasicas.pas</Transaction>
+    <Transaction>2022/11/24 10:26:55.000.293,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\uAud.pas=</Transaction>
+    <Transaction>2022/11/24 10:28:00.000.720,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\Unit1.pas</Transaction>
+    <Transaction>2022/11/24 10:29:24.000.880,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\uAudt.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\Unit1.pas</Transaction>
+    <Transaction>2022/11/24 10:29:24.000.880,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\uAudt.fmx=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\Unit1.fmx</Transaction>
+    <Transaction>2022/11/24 17:22:38.000.292,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\uSincronizar.pas=</Transaction>
+    <Transaction>2022/11/24 17:22:59.000.975,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\uSincronizar.fmx=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\uAudt.fmx</Transaction>
+    <Transaction>2022/11/24 17:22:59.000.975,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\uSincronizar.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\uAudt.pas</Transaction>
+    <Transaction>2022/11/25 14:51:37.000.736,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 15:40:22.000.468,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\Unit1.fmx=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\uMsg.fmx</Transaction>
+    <Transaction>2022/11/25 15:40:22.000.468,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\Unit1.pas=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\uMsg.pas</Transaction>
+    <Transaction>2022/11/27 11:15:22.000.238,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\uFancyDialog.pas</Transaction>
+    <Transaction>2022/11/28 11:31:17.000.466,C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor241122\uMsg.pas=</Transaction>
+    <Transaction>2022/11/29 17:56:07.000.752,=C:\Users\romul\Documents\Embarcadero\Studio\Projects\Coletor\coletor281122\Androidapi.JNI.PowerManager.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="RX8T604NCXM" Android64="Nexus_4_API_29"/>
+	</ActiveMobileDevice>
+</BorlandProject>

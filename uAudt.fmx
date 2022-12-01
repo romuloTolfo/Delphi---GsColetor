@@ -1,0 +1,329 @@
+object frmAud: TfrmAud
+  Left = 0
+  Top = 0
+  Caption = 'Auditoria'
+  ClientHeight = 481
+  ClientWidth = 304
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object rctFooter: TRectangle
+    Align = Bottom
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF1F3968
+        Offset = 0.838509321212768500
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.500000000000000000
+    Fill.Gradient.StartPosition.Y = 1.000000000000000000
+    Fill.Gradient.StopPosition.X = 0.499999970197677600
+    Fill.Gradient.StopPosition.Y = 0.000000000000000000
+    Position.Y = 441.000000000000000000
+    Size.Width = 304.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object edtUnidAud: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      Position.X = 48.000000000000000000
+      Position.Y = 18.000000000000000000
+    end
+    object edtUnidUrl: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 1
+      Position.X = 168.000000000000000000
+      Position.Y = 18.000000000000000000
+    end
+  end
+  object rctRctTop: TRectangle
+    Align = Top
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF1F3968
+        Offset = 0.891304373741150000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.500000000000000000
+    Fill.Gradient.StopPosition.X = 0.499999970197677600
+    Size.Width = 304.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object lblGsSmart: TLabel
+      Align = Client
+      AutoSize = True
+      StyledSettings = [Family]
+      Margins.Right = 10.000000000000000000
+      Size.Width = 245.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Sincronizar Produtos'
+      TabOrder = 0
+    end
+    object img_voltar: TImage
+      MultiResBitmap.Height = 32
+      MultiResBitmap.Width = 32
+      MultiResBitmap = <
+        item
+          Width = 32
+          Height = 32
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+            F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            0098494441545847ED96C10980300C458B1B084EE3009E9DC0499CC08BEB3893
+            74002F6DFC81047AF0243415C983F2A1397CFE6F0F098EF32B88A8CF39AF388B
+            5CD901F321A5B443097AC8B50D9C9CCD638C1738D1C028A3FA94C9D91C32CBA8
+            3E0FC92719D5C7937B72D3E40CCCB71AC93BD1EFD3FC091898B6FB848A37A178
+            13CA579BB05B4894B209A8ED4AA6701348DF6629759C778470032DA357255DD3
+            7D530000000049454E44AE426082}
+          FileName = 
+            'D:\99Coders\Mobile 360\Curso 2.0\03 - App mobile\05 - Tela princ' +
+            'ipal - Tabs\FontesDelphi\Images\icon-voltar.png'
+        end>
+      Align = Left
+      Margins.Left = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Size.Width = 44.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      WrapMode = Center
+      OnClick = img_voltarClick
+    end
+  end
+  object lyt: TLayout
+    Align = Center
+    Margins.Top = -50.000000000000000000
+    Size.Width = 223.000000000000000000
+    Size.Height = 217.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object lyt1: TLayout
+      Align = Top
+      Size.Width = 223.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object lbl_cliente: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Size.Width = 223.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+        TextSettings.FontColor = xFF7A7A7A
+        TextSettings.HorzAlign = Center
+        Text = 'Quantidades '
+        TabOrder = 0
+      end
+    end
+    object lyt2: TLayout
+      Align = Top
+      Margins.Top = 20.000000000000000000
+      Position.Y = 53.000000000000000000
+      Size.Width = 223.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object lbl_produto: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Size.Width = 153.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+        TextSettings.FontColor = xFF757575
+        Text = '0 - Enviados'
+        TabOrder = 0
+      end
+      object img: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              03C0494441546843ED974D681D551480CFB933AF53837F449A45C0456374A1A0
+              585B11FCC926C97BEDBCF74A17452A828250D12A76D1BAD074654B15E9A642DB
+              205DB80854D38574E6BD4E6237A18B822215A1E2C2166CA194A80B4B4DF2DEE4
+              DEE3B937F7050DE1BD19BA18C4FBC1997BCE993333E7FECC9C3BE070381C0E87
+              A340D0B63D191BDB352036A413A8E42BC621FC3382E4E166B379CBD805216CDB
+              13CF4FA710F05D10E2772300FB24E254BD5EBF6F25A21832CF4025AC9102755A
+              48B9CF38BCD2E77C7C1541BD79BED1D03A542AB5E748C0A0D63B202AB2AA0111
+              FF656B945AE313343F13C797ACD5955C1DE0F97A2A89A21F8D5DAD6E03C26F81
+              E868D28C3F30BEEDB51F748CD6EF0A92BF24CDE6A3D6EA4ABE0E101DE3640F68
+              BB1C568FEB254544EFCD34E3E32BBEB00C0A8711617544897A3F83045F61E109
+              23F4E07A12C791757525730738E1EF38E1ADA0E0A2710878918FDF834CB72749
+              F29BF11540E6979847690F8FE6972671933C4D2F83DA5364F29ACC33A0191919
+              F1616060A331E6E797E6E6E6968DEEF81F936B098D8EEE7E2008161ED27AABD5
+              F7C7850BD37F9A130592F9252E57AB5BFC60615A82B8AAC52F2D9E1D0FC367EC
+              E9C2C8DC019438C5E163FAEB6344E0285F3C35BE73E7C336A410322F215DC898
+              435CB40E5BFB236E2614C081D94674CCFA5EE312F6A4D6B993A698D19AAD033F
+              70C5E69B99D642ABC50F7937A2AE75B627BDC8D50190B82549CE5D3636EF7BC0
+              834BFFDC4A8CEFA85D14082F68FD6E904057BF69C4C3D6EC4ABE0E80FA4AA5E9
+              5BB2AF0F4B697AFAE6CD5BD5C1C1C1379246F4858E09C3704829AFDF5CB00EE4
+              A9AECFD3BB08A320DE9E8DE39F8DDE833C1D38BB78E7F62EDFBFDF7C794A1BE1
+              41A5E06B41A9AEC62D1354009E6D7B32FCC850520AEE9158C2CDC28705764D0A
+              951EE4E4B5EE70FC57C9FC126BCAB5DA13A8F071AD93A09F66A2E88A39512039
+              BE42F5DDB44C1FA30F43DAA665B8863E7E9834CE9D31010591792B012A3D09D0
+              EEE702FABE16291737A9943EAB54EA4FDB8842C8530774A97FBD53B4D8DECBCD
+              2457E209AEC4478C6F47F508218D689D788DE9762DEC5DD7CFE1AB7EDE7C5CE6
+              7BEEB76657B2CF00A308AF5B95B350BF9A1671837130FCFFFE1882785E8BDE52
+              AC27E677741DE1FFED973AC283B0D5DEB2279967E0D9B0B6D4AFE08A407C5B71
+              4FA49093EDBFBCE1A00F5E9E3D1FC53AA652A904524A3F0802339AAD562BD747
+              A243BBDD96FCBBBA64CDAE647E4039AC1D4592EF007AF71A07C93B84DEA99946
+              74D0D80591790951DAFA94C34F70E237B4E8E44B489FD8D30E87C3E17038F203
+              F0374F1A7E06B024286C0000000049454E44AE426082}
+            FileName = 
+              'D:\99Coders\Mobile 360\Curso 2.0\04 - Webservices\19 - Sincroniz' +
+              'acao dos Dados - Tela Geral\Fontes\Mobile\Images\icon-pedido-sin' +
+              'c.png'
+          end>
+        Align = Left
+        Size.Width = 50.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object lyt3: TLayout
+      Align = Top
+      Margins.Top = 20.000000000000000000
+      Position.Y = 130.000000000000000000
+      Size.Width = 223.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object img2: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              03C0494441546843ED974D681D551480CFB933AF53837F440C4470618C2E1494
+              D62A42ADD92479AF9DF75EE9A248455010945A4517AD0B8DABB6B422DD545083
+              74E122504D17D299F73A89DD842E0A9652115A5CD88275518DBAB0D424EF4DEE
+              3D9E7B735FD010DE9BA18B41BC1F9CB9E79C393373EECFCCB9030E87C3E17038
+              0A046DDB93B1B15D0362433A814ABE681CC23F29481E6A369BBF18BB20846D7B
+              E2F9E91402BE0542FC6E04609F449CAAD7EB77AD441443E619A8843552A04E08
+              29F7198757FA9C8F2F21A8D7CF341A5A874AA5F62C097840EB1D101559D58088
+              FFB2354AADF1099A9F89E3F3D6EA4AAE0EF07C3D9944D1F7C6AE569F06C26F81
+              E848D28CDF33BEEDB5EF748CD66F0B923F26CDE623D6EA4ABE0E101DE364F76B
+              BB1C568FEB2545446FCF34E3E32BBEB00C0A8711617544897A3F83045F61E109
+              23F4E07A12C791757525730738E10B9CF0165070CE38046CE3E34590E9F62449
+              7E33BE02C8FC12F328EDE1D1FCD2246E92A7E965507B8A4C5E93790634232323
+              3E0C0C6C34C6FCFCD2DCDCDCB2D11DFF63722DA1D1D1DDF704C1C27D5A6FB5FA
+              FE387B76FA4F73A24032BFC4E56A75B31F2C4C4B1057B5F8A5C553E361F8943D
+              5D18993B8012A7387C4C7F7D8C081CE58BA7C677EE7CD0861442E625A40B19F3
+              0117AD43D63EC8CD8402D83FDB888E59DFCB5CC29ED03A77D214335AB375E007
+              AED87C33D35A68B5F821EF46D4B5CEF6A417B93A00123727C9E94BC6E67D0F78
+              70FE9F5B89F11DB57302E139ADDF0E12E8EA378D78D89A5DC9D701505FA934DD
+              2BFBFAB094A6276EDCF8B53A3838F86AD288BED03161180E29E5F59B0BD6813C
+              D5F5797A176114C49BB371FC83D17B90A703A7166FDDDCE5FB779B2F4F6923DC
+              AB147C2D28D5D5B865820AC0B36D4F861F1E4A4AC11D124BF890F061815D9342
+              A5073879AD3B1CFF5532BFC49A72ADF6382A7C4CEB24E8CA4C145D36270A24C7
+              57A8BE9B96E928FA30A46D5A866BE8E3FB49E3F44913501099B712A0D24F01DA
+              FD5C40DFD522E5E2FD2AA58F2B95FA261B510879EA802EF5AF748A16DBAF7133
+              C99578822BF161E3DB513D4C48235A275E63BA5D0B7BD7F573F8AA9F371F97F8
+              9EEF58B32BD967805184D7ADCA59A89F4C8BB8C13818FE7F7F14416CD5A2B714
+              EB89F91D5D47F87FFBF98EF0206CB1B7EC49E6197826AC2DF52BB82C10DF50DC
+              1329E464FB2F6F38E8831766CF44B18EA9542A8194D20F82C08C66ABD5CAF591
+              E8D06EB725FFAE2E59B32B991F500E6B4790E49B80DE9DC641F216A1F7D94C23
+              3A60EC82C8BC84286D7DC4E19F70E23F6BD1C997903EB4A71D0E87C3E170E407
+              E06F4F267E0654DBF4360000000049454E44AE426082}
+            FileName = 
+              'D:\99Coders\Mobile 360\Curso 2.0\04 - Webservices\19 - Sincroniz' +
+              'acao dos Dados - Tela Geral\Fontes\Mobile\Images\icon-pedido-sin' +
+              'c.png'
+          end>
+        Align = Left
+        Size.Width = 50.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object lbl_pedido: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Size.Width = 153.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+        TextSettings.FontColor = xFF757575
+        Text = '0 - Recebidos'
+        TabOrder = 0
+      end
+    end
+  end
+  object btnSinc: TSpeedButton
+    Align = Center
+    StyledSettings = [Family, Style, FontColor, Other]
+    Margins.Top = 250.000000000000000000
+    Size.Width = 218.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'BotaoAzul'
+    Text = 'SINCRONIZAR'
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    TextSettings.FontColor = claAliceblue
+    OnClick = btnSincClick
+  end
+  object RequestProdGeral: TRESTRequest
+    Client = RESTClientProdGeral
+    Params = <
+      item
+        Name = 'gs_unidade'
+        Value = '100'
+      end
+      item
+        Name = 'gs_pagina'
+        Value = '1'
+      end>
+    Resource = 'prod_geral'
+    SynchronizedEvents = False
+    Left = 256
+    Top = 424
+  end
+  object RESTClientProdGeral: TRESTClient
+    Authenticator = HTTPBasicAuthenticator1
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'utf-8, *;q=0.8'
+    Params = <>
+    RaiseExceptionOn500 = False
+    Left = 16
+    Top = 416
+  end
+  object HTTPBasicAuthenticator1: THTTPBasicAuthenticator
+    Username = 'testserver'
+    Password = 'testserver'
+    Left = 136
+    Top = 408
+  end
+end

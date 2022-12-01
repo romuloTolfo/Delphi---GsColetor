@@ -1,0 +1,48 @@
+inherited frmConsulta_NmXhdpiPh: TfrmConsulta_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited rctFooter: TRectangle
+    Position.Y = 575.000000000000000000
+    Size.Width = 400.000000000000000000
+  end
+  inherited rctTop: TRectangle
+    Size.Width = 400.000000000000000000
+    inherited btnConsulta: TButton
+      Position.X = 322.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 38.000000000000000000
+    end
+    inherited lblCodBarras: TLabel
+      Size.Height = 43.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      Text = 'CONSULTA PRODUTOS'
+    end
+    inherited edtCodBar: TEdit
+      Position.Y = 53.000000000000000000
+      Size.Width = 365.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+  end
+  inherited VertScrollBox1: TVertScrollBox
+    Size.Width = 400.000000000000000000
+    Size.Height = 406.000000000000000000
+    Viewport.Width = 400.000000000000000000
+    Viewport.Height = 406.000000000000000000
+  end
+  inherited rctRctTop: TRectangle
+    Size.Width = 400.000000000000000000
+    inherited lblGsSmart: TLabel
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+    end
+    inherited img_fechar: TImage
+      MultiResBitmap.Height = 32
+      MultiResBitmap.Width = 32
+      OnClick = nil
+    end
+  end
+  inherited bndngslst: TBindingsList
+    Left = 324
+    Top = 381
+  end
+end
