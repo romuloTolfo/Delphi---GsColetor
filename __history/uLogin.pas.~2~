@@ -94,6 +94,7 @@ begin
   begin
      if (edtUser.Text = '') then
      begin
+
        edtUser.SetFocus;
        fancy.Show(TIconDialog.Error, 'Erro', 'Preencha o usuário', 'OK');
        //if edtUser.CanFocus then

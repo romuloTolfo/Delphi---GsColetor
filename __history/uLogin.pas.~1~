@@ -94,7 +94,9 @@ begin
   begin
      if (edtUser.Text = '') then
      begin
+      {RetFrm:= -1;
        edtUser.SetFocus;
+       TelaMensagem('Erro','Preencha usuário e senha',0);}
        fancy.Show(TIconDialog.Error, 'Erro', 'Preencha o usuário', 'OK');
        //if edtUser.CanFocus then
        Exit
